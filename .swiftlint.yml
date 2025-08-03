@@ -1,0 +1,248 @@
+# SwiftLint Configuration
+# Dünya standartlarında kod kalitesi için SwiftLint kuralları
+
+# Disabled Rules
+disabled_rules:
+  - trailing_whitespace
+  - line_length
+  - function_body_length
+  - file_length
+  - type_body_length
+  - cyclomatic_complexity
+  - function_parameter_count
+  - large_tuple
+  - force_unwrapping
+  - implicitly_unwrapped_optional
+  - unused_import
+  - unused_private_declaration
+  - unused_setter_value
+  - unused_optional_binding
+  - unused_enumerated
+  - unused_closure_parameter
+  - unused_control_flow_label
+  - unused_declaration
+  - unused_import
+  - unused_private_declaration
+  - unused_setter_value
+  - unused_optional_binding
+  - unused_enumerated
+  - unused_closure_parameter
+  - unused_control_flow_label
+
+# Enabled Rules
+opt_in_rules:
+  - array_init
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - contains_over_filter_count
+  - contains_over_filter_is_empty
+  - contains_over_range_nil_comparison
+  - empty_count
+  - empty_string
+  - enum_case_associated_values_count
+  - fatal_error_message
+  - first_where
+  - force_unwrapping
+  - implicitly_unwrapped_optional
+  - last_where
+  - legacy_random
+  - literal_expression_end_indentation
+  - multiline_arguments
+  - multiline_function_chains
+  - multiline_literal_brackets
+  - multiline_parameters
+  - operator_usage_whitespace
+  - overridden_super_call
+  - pattern_matching_keywords
+  - prefer_self_type_over_type_of_self
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - required_enum_case
+  - single_test_class
+  - sorted_imports
+  - static_operator
+  - strict_fileprivate
+  - strong_iboutlet
+  - toggle_bool
+  - unneeded_parentheses_in_closure_argument
+  - unneeded_break_in_switch
+  - unneeded_override
+  - unused_import
+  - unused_private_declaration
+  - unused_setter_value
+  - unused_optional_binding
+  - unused_enumerated
+  - unused_closure_parameter
+  - unused_control_flow_label
+  - unused_declaration
+  - vertical_parameter_alignment_on_call
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
+  - yoda_condition
+
+# Rule Configuration
+analyzer_rules:
+  - unused_declaration
+  - unused_import
+  - unused_private_declaration
+  - unused_setter_value
+  - unused_optional_binding
+  - unused_enumerated
+  - unused_closure_parameter
+  - unused_control_flow_label
+
+# Custom Rules
+custom_rules:
+  # Clean Architecture Rules
+  clean_architecture_layer:
+    name: "Clean Architecture Layer"
+    regex: "(Domain|Data|Presentation|Infrastructure)"
+    message: "Use proper Clean Architecture layer naming"
+    severity: warning
+
+  # SOLID Principles Rules
+  solid_single_responsibility:
+    name: "Single Responsibility Principle"
+    regex: "class.*\\{[^}]*func.*func"
+    message: "Class should have single responsibility"
+    severity: warning
+
+  # Performance Rules
+  performance_force_unwrap:
+    name: "Performance Force Unwrap"
+    regex: "\\!\\."
+    message: "Avoid force unwrapping, use safe unwrapping"
+    severity: error
+
+# Rule Configuration
+line_length:
+  warning: 120
+  error: 150
+  ignores_comments: true
+  ignores_urls: true
+  ignores_function_declarations: true
+  ignores_condition_compilation_blocks: true
+
+function_body_length:
+  warning: 50
+  error: 100
+
+file_length:
+  warning: 500
+  error: 1000
+
+type_body_length:
+  warning: 300
+  error: 600
+
+cyclomatic_complexity:
+  warning: 10
+  error: 20
+
+function_parameter_count:
+  warning: 5
+  error: 8
+
+large_tuple:
+  warning: 3
+  error: 5
+
+# Excluded Paths
+excluded:
+  - Pods
+  - Carthage
+  - fastlane
+  - Tests
+  - UITests
+  - UnitTests
+  - Generated
+  - Build
+  - DerivedData
+  - .build
+  - .swiftpm
+
+# Included Paths
+included:
+  - Sources
+  - App
+  - Core
+  - Domain
+  - Data
+  - Presentation
+  - Infrastructure
+
+# Reporter
+reporter: "xcode"
+
+# Cache
+cache_path: ".swiftlint_cache"
+
+# Output
+output_file: "swiftlint_report.txt"
+
+# Verbose
+verbose: true
+
+# Quiet
+quiet: false
+
+# Use Script Input Files
+use_script_input_files: false
+
+# Use Alternative Excluding
+use_alternative_excluding: false
+
+# Use Default Excluding
+use_default_excluding: true
+
+# Use Default Including
+use_default_including: true
+
+# Use Default Reporter
+use_default_reporter: true
+
+# Use Default Cache Path
+use_default_cache_path: true
+
+# Use Default Output File
+use_default_output_file: true
+
+# Use Default Verbose
+use_default_verbose: true
+
+# Use Default Quiet
+use_default_quiet: true
+
+# Use Default Script Input Files
+use_default_script_input_files: true
+
+# Use Default Alternative Excluding
+use_default_alternative_excluding: true
+
+# Use Default Use Default Excluding
+use_default_use_default_excluding: true
+
+# Use Default Use Default Including
+use_default_use_default_including: true
+
+# Use Default Use Default Reporter
+use_default_use_default_reporter: true
+
+# Use Default Use Default Cache Path
+use_default_use_default_cache_path: true
+
+# Use Default Use Default Output File
+use_default_use_default_output_file: true
+
+# Use Default Use Default Verbose
+use_default_use_default_verbose: true
+
+# Use Default Use Default Quiet
+use_default_use_default_quiet: true
+
+# Use Default Use Default Script Input Files
+use_default_use_default_script_input_files: true
+
+# Use Default Use Default Alternative Excluding
+use_default_use_default_alternative_excluding: true
