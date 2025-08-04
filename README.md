@@ -1,56 +1,183 @@
-# iOS Clean Architecture Template
+# 🚀 iOS Clean Architecture Template
 
 <div align="center">
 
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
-![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-007ACC?style=for-the-badge&logo=swift&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-5.7+-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-15.0+-000000?style=for-the-badge&logo=ios&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-15.0+-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
+![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-Domain%20Data%20Presentation-007ACC?style=for-the-badge)
+![SOLID](https://img.shields.io/badge/SOLID-Principles-4CAF50?style=for-the-badge)
+![MVVM](https://img.shields.io/badge/MVVM-Pattern-9C27B0?style=for-the-badge)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-Declarative-FF6B6B?style=for-the-badge)
+![UIKit](https://img.shields.io/badge/UIKit-Framework-2196F3?style=for-the-badge)
+![Dependency Injection](https://img.shields.io/badge/DI-Container-FF9800?style=for-the-badge)
+![Unit Testing](https://img.shields.io/badge/Unit%20Testing-100%25-4CAF50?style=for-the-badge)
+![UI Testing](https://img.shields.io/badge/UI%20Testing-Automated-FF5722?style=for-the-badge)
+![Performance](https://img.shields.io/badge/Performance-Optimized-00BCD4?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Best%20Practices-795548?style=for-the-badge)
+![Analytics](https://img.shields.io/badge/Analytics-Tracking-9E9E9E?style=for-the-badge)
+![Accessibility](https://img.shields.io/badge/Accessibility-WCAG-607D8B?style=for-the-badge)
+![Localization](https://img.shields.io/badge/Localization-Multi%20Language-8BC34A?style=for-the-badge)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-673AB7?style=for-the-badge)
+![Swift Package Manager](https://img.shields.io/badge/SPM-Dependencies-FF6B35?style=for-the-badge)
+![CocoaPods](https://img.shields.io/badge/CocoaPods-Supported-E91E63?style=for-the-badge)
 
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)](https://github.com/muhittincamdali/ios-clean-architecture-template)
-[![Test Coverage](https://img.shields.io/badge/Test%20Coverage-100%25-brightgreen?style=for-the-badge)](https://github.com/muhittincamdali/ios-clean-architecture-template)
-[![Version](https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge)](https://github.com/muhittincamdali/ios-clean-architecture-template)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/muhittincamdali/ios-clean-architecture-template)
-[![Swift Package Manager](https://img.shields.io/badge/SPM-Supported-orange?style=for-the-badge)](https://github.com/muhittincamdali/ios-clean-architecture-template)
-[![CocoaPods](https://img.shields.io/badge/CocoaPods-Supported-red?style=for-the-badge)](https://github.com/muhittincamdali/ios-clean-architecture-template)
+**🏆 World-Class iOS Clean Architecture Template**
 
-**World-Class iOS Clean Architecture Template - 500 Million Dollar Quality**
+**⚡ Professional Quality Standards**
+
+**🎯 Enterprise-Grade Development Framework**
 
 </div>
 
 ---
 
-## 🚀 Overview
+## 📋 Table of Contents
 
-A professional, enterprise-grade iOS Clean Architecture template that follows world-class development standards. This template provides a solid foundation for building scalable, maintainable, and high-performance iOS applications.
-
-### ✨ Key Features
-
-- **🏗️ Clean Architecture** - Domain, Data, Presentation, and Infrastructure layers
-- **🎯 SOLID Principles** - Single Responsibility, Dependency Inversion, and more
-- **📱 MVVM Pattern** - Modern UI architecture with SwiftUI and UIKit support
-- **🔧 Dependency Injection** - Professional DI container with lifecycle management
-- **🧪 100% Test Coverage** - Comprehensive unit, integration, and UI tests
-- **⚡ Performance Optimized** - App launch <1.3s, API response <200ms, 60fps animations
-- **🔒 Security First** - Keychain integration, certificate pinning, biometric auth
-- **📊 Analytics Ready** - Built-in analytics and crash reporting
-- **🎨 Design System** - Professional UI components and animations
-- **🌍 Internationalization** - Multi-language support and RTL
-- **♿ Accessibility** - WCAG compliance and VoiceOver support
+- [🚀 Overview](#-overview)
+- [✨ Key Features](#-key-features)
+- [🏗️ Architecture](#️-architecture)
+- [⚡ Quick Start](#-quick-start)
+- [📱 Usage Examples](#-usage-examples)
+- [🧪 Testing Strategy](#-testing-strategy)
+- [⚡ Performance Optimization](#-performance-optimization)
+- [🔒 Security Implementation](#-security-implementation)
+- [📊 Analytics & Monitoring](#-analytics--monitoring)
+- [🎨 Design System](#-design-system)
+- [🌍 Internationalization](#-internationalization)
+- [♿ Accessibility](#-accessibility)
+- [📚 Documentation](#-documentation)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📊 Project Statistics](#-project-statistics)
+- [🌟 Stargazers](#-stargazers)
 
 ---
 
-## 📋 Table of Contents
+## 🚀 Overview
 
-- [Quick Start](#quick-start)
-- [Architecture Overview](#architecture-overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Performance](#performance)
-- [Security](#security)
-- [Contributing](#contributing)
-- [License](#license)
+**iOS Clean Architecture Template** is the most advanced, professional, and comprehensive iOS development framework built with Clean Architecture principles and SOLID design patterns. This enterprise-grade template provides everything you need to build scalable, maintainable, and high-performance iOS applications.
+
+### 🎯 What Makes This Template Special?
+
+- **🏗️ Clean Architecture**: Complete separation of concerns with Domain, Data, Presentation, and Infrastructure layers
+- **🎯 SOLID Principles**: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
+- **📱 MVVM Pattern**: Modern UI architecture with SwiftUI and UIKit support
+- **🔧 Dependency Injection**: Professional DI container with lifecycle management
+- **🧪 100% Test Coverage**: Comprehensive unit, integration, and UI tests
+- **⚡ Performance Optimized**: App launch <1.3s, API response <200ms, 60fps animations
+- **🔒 Security First**: Keychain integration, certificate pinning, biometric authentication
+- **📊 Analytics Ready**: Built-in analytics and crash reporting
+- **🎨 Design System**: Professional UI components and animations
+- **🌍 Internationalization**: Multi-language support and RTL
+- **♿ Accessibility**: WCAG compliance and VoiceOver support
+
+---
+
+## ✨ Key Features
+
+### 🏗️ Architecture Features
+
+* **Clean Architecture Implementation**: Complete layer separation with proper dependency flow
+* **SOLID Principles Applied**: Maintainable and scalable codebase
+* **MVVM Pattern**: Modern UI architecture with reactive programming
+* **Dependency Injection**: Professional container with lifecycle management
+* **Repository Pattern**: Data access abstraction with multiple data sources
+* **Use Case Pattern**: Business logic encapsulation and reusability
+* **Protocol-Oriented Design**: Swift-first approach with protocol extensions
+* **Modular Architecture**: Easy to integrate and extend components
+
+### 📱 UI/UX Features
+
+* **SwiftUI Support**: Modern declarative UI framework
+* **UIKit Integration**: Legacy component support
+* **Custom Animations**: Smooth 60fps performance with physics-based animations
+* **Design System**: Consistent color palette, typography, and spacing
+* **Dark/Light Mode**: Automatic switching with custom themes
+* **Accessibility**: VoiceOver support and WCAG compliance
+* **Internationalization**: Multi-language support with RTL
+* **Responsive Design**: Adaptive layouts for all device sizes
+
+### 🔧 Technical Features
+
+* **Swift Package Manager**: Modern dependency management
+* **CocoaPods Support**: Additional dependency options
+* **Combine Framework**: Reactive programming support
+* **Async/Await**: Modern concurrency patterns
+* **Error Handling**: Comprehensive error types and recovery
+* **Logging System**: Multiple levels with structured logging
+* **Caching Strategy**: Intelligent cache management
+* **Background Processing**: Efficient background task handling
+
+### 🔒 Security Features
+
+* **Keychain Integration**: Secure credential storage
+* **Certificate Pinning**: Network security protection
+* **Biometric Authentication**: Touch ID and Face ID support
+* **Data Encryption**: Sensitive information protection
+* **Input Validation**: Comprehensive security rules
+* **SSL/TLS Enforcement**: Secure network communication
+* **Privacy Compliance**: GDPR and CCPA compliance
+* **Secure Storage**: Encrypted local data storage
+
+### 📊 Analytics & Monitoring
+
+* **Performance Monitoring**: Real-time metrics tracking
+* **Crash Reporting**: Automatic error tracking and analysis
+* **User Analytics**: Behavior tracking and insights
+* **Network Monitoring**: Request/response logging
+* **Memory Usage**: Tracking and optimization
+* **Battery Usage**: Consumption monitoring
+* **Custom Events**: Flexible event tracking system
+* **A/B Testing**: Feature experimentation support
+
+---
+
+## 🏗️ Architecture
+
+### Clean Architecture Layers
+
+```
+📱 Presentation Layer
+├── 🎨 Views (SwiftUI/UIKit)
+├── 🧠 ViewModels
+└── 🎯 Coordinators
+
+📊 Domain Layer
+├── 🏢 Entities
+├── 📋 Use Cases
+└── 🤝 Protocols
+
+💾 Data Layer
+├── 📡 Remote DataSources
+├── 💿 Local DataSources
+└── 🗄️ Repositories
+
+🔧 Infrastructure Layer
+├── 🔐 Security
+├── 📊 Analytics
+├── 🎨 Design System
+└── ⚡ Performance
+```
+
+### Dependency Flow
+
+```
+Presentation → Domain ← Data
+     ↓           ↑        ↓
+Infrastructure → Domain ← Infrastructure
+```
+
+### Data Flow
+
+1. **User Action**: User interacts with UI
+2. **ViewModel**: Processes user action
+3. **Use Case**: Executes business logic
+4. **Repository**: Accesses data sources
+5. **Data Source**: Fetches from remote/local
+6. **Response**: Data flows back through layers
+7. **UI Update**: View reflects changes
 
 ---
 
@@ -58,10 +185,10 @@ A professional, enterprise-grade iOS Clean Architecture template that follows wo
 
 ### Prerequisites
 
-- **Xcode 15.0+** with iOS 15.0+ SDK
-- **Swift 5.7+** programming language
-- **Git** version control system
-- **Swift Package Manager** for dependency management
+* **Xcode 15.0+** with iOS 15.0+ SDK
+* **Swift 5.7+** programming language
+* **Git** version control system
+* **Swift Package Manager** for dependency management
 
 ### Installation
 
@@ -79,141 +206,6 @@ swift package resolve
 open Package.swift
 ```
 
-### Basic Usage
-
-```swift
-import iOSCleanArchitectureTemplate
-
-// Initialize the app with dependency injection
-let app = BasicExampleApp()
-app.setupDependencies()
-
-// Use the template components
-let userListView = UserListView(viewModel: UserListViewModel())
-```
-
----
-
-## 🏗️ Architecture Overview
-
-### Clean Architecture Layers
-
-#### 📊 Domain Layer
-- **Entities**: Core business objects
-- **Use Cases**: Business logic implementation
-- **Protocols**: Abstract interfaces
-- **Exceptions**: Domain-specific errors
-
-#### 📁 Data Layer
-- **Repositories**: Data access implementation
-- **Data Sources**: Remote and local data sources
-- **Models**: Data transfer objects
-- **Mappers**: Data transformation
-
-#### 🎨 Presentation Layer
-- **ViewModels**: MVVM pattern implementation
-- **Views**: SwiftUI and UIKit components
-- **Coordinators**: Navigation management
-- **Components**: Reusable UI components
-
-#### 🔧 Infrastructure Layer
-- **Networking**: API communication
-- **Storage**: Local data persistence
-- **Analytics**: User behavior tracking
-- **Security**: Data protection
-- **Performance**: Monitoring and optimization
-
-### Dependency Flow
-
-```
-Presentation → Domain ← Data
-     ↓           ↑        ↓
-Infrastructure → Domain ← Infrastructure
-```
-
----
-
-## ✨ Features
-
-### 🏗️ Architecture Features
-
-- **Clean Architecture** implementation with proper layer separation
-- **SOLID Principles** applied throughout the codebase
-- **MVVM Pattern** for UI layer with SwiftUI and UIKit support
-- **Dependency Injection** with professional container implementation
-- **Repository Pattern** for data access abstraction
-- **Use Case Pattern** for business logic encapsulation
-
-### 📱 UI/UX Features
-
-- **SwiftUI** modern declarative UI framework
-- **UIKit** support for legacy components
-- **Custom Animations** with smooth 60fps performance
-- **Design System** with consistent color palette and typography
-- **Dark/Light Mode** support with automatic switching
-- **Accessibility** features with VoiceOver support
-- **Internationalization** for multi-language support
-
-### 🔧 Technical Features
-
-- **Swift Package Manager** for dependency management
-- **CocoaPods** support for additional dependencies
-- **Combine** reactive programming framework
-- **Async/Await** for modern concurrency
-- **Error Handling** with comprehensive error types
-- **Logging** system with multiple levels
-- **Caching** with intelligent cache management
-
-### 🔒 Security Features
-
-- **Keychain Integration** for secure data storage
-- **Certificate Pinning** for network security
-- **Biometric Authentication** support
-- **Data Encryption** for sensitive information
-- **Input Validation** with comprehensive rules
-- **SSL/TLS** enforcement for all network calls
-
-### 📊 Analytics & Monitoring
-
-- **Performance Monitoring** with detailed metrics
-- **Crash Reporting** integration
-- **User Analytics** tracking
-- **Network Monitoring** with request/response logging
-- **Memory Usage** tracking and optimization
-- **Battery Usage** monitoring
-
----
-
-## 📦 Installation
-
-### Swift Package Manager
-
-Add the following to your `Package.swift`:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/muhittincamdali/ios-clean-architecture-template.git", from: "2.0.0")
-]
-```
-
-### CocoaPods
-
-Add to your `Podfile`:
-
-```ruby
-pod 'iOSCleanArchitectureTemplate', '~> 2.0.0'
-```
-
-### Manual Installation
-
-1. Download the source code
-2. Add the `Sources` folder to your project
-3. Configure the dependencies in your project
-
----
-
-## 🚀 Usage
-
 ### Basic Setup
 
 ```swift
@@ -230,41 +222,10 @@ struct MyApp: App {
 }
 ```
 
-### Using the Template Components
+### Dependency Injection Setup
 
 ```swift
-// User List View
-struct UserListView: View {
-    @StateObject private var viewModel = UserListViewModel()
-    
-    var body: some View {
-        List(viewModel.users) { user in
-            UserRowView(user: user)
-        }
-        .onAppear {
-            Task {
-                await viewModel.loadUsers()
-            }
-        }
-    }
-}
-
-// Custom Button Component
-struct MyButton: View {
-    let title: String
-    let action: () -> Void
-    
-    var body: some View {
-        CustomButton(title: title, action: action)
-            .buttonStyle(.borderedProminent)
-    }
-}
-```
-
-### Dependency Injection
-
-```swift
-// Setup dependencies
+// Configure dependencies
 let container = DependencyContainer()
 container.register(UserRepositoryProtocol.self) { _ in
     UserRepository()
@@ -286,38 +247,179 @@ struct ContentView: View {
 
 ---
 
-## 🧪 Testing
+## 📱 Usage Examples
+
+### User Management
+
+```swift
+// User Entity
+struct User: Codable, Identifiable {
+    let id: String
+    let name: String
+    let email: String
+    let role: UserRole
+}
+
+// Use Case
+struct GetUserUseCase {
+    private let repository: UserRepositoryProtocol
+    
+    init(repository: UserRepositoryProtocol) {
+        self.repository = repository
+    }
+    
+    func execute(id: String) async throws -> User {
+        return try await repository.getUser(id: id)
+    }
+}
+
+// ViewModel
+@MainActor
+class UserListViewModel: ObservableObject {
+    @Published var users: [User] = []
+    @Published var isLoading = false
+    @Published var error: Error?
+    
+    private let getUserUseCase: GetUserUseCaseProtocol
+    
+    init(getUserUseCase: GetUserUseCaseProtocol) {
+        self.getUserUseCase = getUserUseCase
+    }
+    
+    func loadUsers() async {
+        isLoading = true
+        do {
+            users = try await getUserUseCase.execute()
+        } catch {
+            self.error = error
+        }
+        isLoading = false
+    }
+}
+
+// View
+struct UserListView: View {
+    @StateObject private var viewModel: UserListViewModel
+    
+    var body: some View {
+        List(viewModel.users) { user in
+            UserRowView(user: user)
+        }
+        .onAppear {
+            Task {
+                await viewModel.loadUsers()
+            }
+        }
+    }
+}
+```
+
+### Network Layer
+
+```swift
+// API Service
+class APIService {
+    private let session: URLSession
+    private let baseURL: URL
+    
+    init(session: URLSession = .shared, baseURL: URL) {
+        self.session = session
+        self.baseURL = baseURL
+    }
+    
+    func request<T: Codable>(_ endpoint: APIEndpoint) async throws -> T {
+        let request = try endpoint.urlRequest(baseURL: baseURL)
+        let (data, response) = try await session.data(for: request)
+        
+        guard let httpResponse = response as? HTTPURLResponse,
+              (200...299).contains(httpResponse.statusCode) else {
+            throw APIError.invalidResponse
+        }
+        
+        return try JSONDecoder().decode(T.self, from: data)
+    }
+}
+
+// Repository Implementation
+class UserRepository: UserRepositoryProtocol {
+    private let apiService: APIService
+    private let localDataSource: UserLocalDataSource
+    
+    init(apiService: APIService, localDataSource: UserLocalDataSource) {
+        self.apiService = apiService
+        self.localDataSource = localDataSource
+    }
+    
+    func getUser(id: String) async throws -> User {
+        // Try local first
+        if let localUser = try await localDataSource.getUser(id: id) {
+            return localUser
+        }
+        
+        // Fetch from remote
+        let remoteUser = try await apiService.request(.getUser(id: id))
+        
+        // Cache locally
+        try await localDataSource.saveUser(remoteUser)
+        
+        return remoteUser
+    }
+}
+```
+
+---
+
+## 🧪 Testing Strategy
+
+### Test Pyramid
+
+```
+    /\
+   /  \     E2E Tests (5%)
+  /____\    Integration Tests (15%)
+ /______\   Unit Tests (80%)
+```
 
 ### Unit Tests
 
 ```swift
 import XCTest
-import Quick
-import Nimble
 @testable import Domain
 
-class GetUserUseCaseTests: QuickSpec {
-    override func spec() {
-        describe("GetUserUseCase") {
-            var useCase: GetUserUseCase!
-            var mockRepository: MockUserRepository!
-            
-            beforeEach {
-                mockRepository = MockUserRepository()
-                useCase = GetUserUseCase(repository: mockRepository)
-            }
-            
-            it("should return user when user exists") {
-                // Given
-                let expectedUser = User(id: "1", name: "John", email: "john@example.com")
-                mockRepository.mockUser = expectedUser
-                
-                // When
-                let result = try await useCase.execute(id: "1")
-                
-                // Then
-                expect(result).to(equal(expectedUser))
-            }
+class GetUserUseCaseTests: XCTestCase {
+    var useCase: GetUserUseCase!
+    var mockRepository: MockUserRepository!
+    
+    override func setUp() {
+        super.setUp()
+        mockRepository = MockUserRepository()
+        useCase = GetUserUseCase(repository: mockRepository)
+    }
+    
+    func testGetUserSuccess() async throws {
+        // Given
+        let expectedUser = User(id: "1", name: "John", email: "john@example.com")
+        mockRepository.mockUser = expectedUser
+        
+        // When
+        let result = try await useCase.execute(id: "1")
+        
+        // Then
+        XCTAssertEqual(result.id, expectedUser.id)
+        XCTAssertEqual(result.name, expectedUser.name)
+        XCTAssertEqual(result.email, expectedUser.email)
+    }
+    
+    func testGetUserFailure() async throws {
+        // Given
+        mockRepository.shouldFail = true
+        
+        // When & Then
+        do {
+            _ = try await useCase.execute(id: "1")
+            XCTFail("Should throw error")
+        } catch {
+            XCTAssertTrue(error is UserError)
         }
     }
 }
@@ -348,6 +450,18 @@ class UserListViewUITests: XCTestCase {
         XCTAssertTrue(userList.exists)
         XCTAssertGreaterThan(userList.cells.count, 0)
     }
+    
+    func testUserDetailNavigation() throws {
+        // Given
+        let userCell = app.collectionViews["UserList"].cells.firstMatch
+        
+        // When
+        userCell.tap()
+        
+        // Then
+        let detailView = app.otherElements["UserDetailView"]
+        XCTAssertTrue(detailView.waitForExistence(timeout: 3))
+    }
 }
 ```
 
@@ -366,15 +480,39 @@ func testUserRetrievalPerformance() {
 
 ---
 
-## ⚡ Performance
+## ⚡ Performance Optimization
 
 ### Performance Targets
 
-- **App Launch Time**: < 1.3 seconds
-- **API Response Time**: < 200ms
-- **Animation Performance**: 60fps
-- **Memory Usage**: < 200MB
-- **Battery Optimization**: Minimal background usage
+* **App Launch Time**: < 1.3 seconds
+* **API Response Time**: < 200ms
+* **Animation Performance**: 60fps
+* **Memory Usage**: < 200MB
+* **Battery Optimization**: Minimal background usage
+
+### Optimization Techniques
+
+```swift
+// Lazy Loading
+LazyVStack {
+    ForEach(items) { item in
+        ItemView(item: item)
+    }
+}
+
+// Image Caching
+KingfisherManager.shared.cache.memoryStorage.config.totalCostLimit = 50 * 1024 * 1024
+
+// Background Processing
+Task.detached(priority: .background) {
+    // Heavy operations
+}
+
+// Memory Management
+autoreleasepool {
+    // Memory-intensive operations
+}
+```
 
 ### Performance Monitoring
 
@@ -391,16 +529,16 @@ performanceMonitor.recordBatteryUsage(0.05) // 5% per hour
 
 ---
 
-## 🔒 Security
+## 🔒 Security Implementation
 
 ### Security Features
 
-- **SSL/TLS** enforcement for all network communications
-- **Certificate Pinning** to prevent man-in-the-middle attacks
-- **Keychain Integration** for secure credential storage
-- **Biometric Authentication** support (Touch ID, Face ID)
-- **Data Encryption** for sensitive information
-- **Input Validation** with comprehensive security rules
+* **SSL/TLS**: Encrypt all network communications
+* **Certificate Pinning**: Prevent man-in-the-middle attacks
+* **Request Signing**: Sign API requests for authenticity
+* **Rate Limiting**: Prevent abuse and DDoS
+* **Input Validation**: Comprehensive security rules
+* **Output Encoding**: Prevent injection attacks
 
 ### Security Implementation
 
@@ -416,19 +554,28 @@ apiService.enableCertificatePinning()
 // Biometric authentication
 let biometricAuth = BiometricManager()
 let isAuthenticated = try await biometricAuth.authenticate(reason: "Access secure data")
+
+// Input validation
+struct UserInputValidator {
+    static func validateEmail(_ email: String) -> Bool {
+        let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+        let emailPredicate = NSPredicate(format:"SELF MATCHES %@", emailRegex)
+        return emailPredicate.evaluate(with: email)
+    }
+}
 ```
 
 ---
 
-## 📊 Analytics
+## 📊 Analytics & Monitoring
 
 ### Analytics Features
 
-- **User Behavior Tracking** with detailed event logging
-- **Performance Analytics** with real-time monitoring
-- **Crash Reporting** with automatic error tracking
-- **Conversion Optimization** with funnel analysis
-- **A/B Testing** support for feature optimization
+* **User Behavior Tracking**: Detailed event logging
+* **Performance Analytics**: Real-time monitoring
+* **Crash Reporting**: Automatic error tracking
+* **Conversion Optimization**: Funnel analysis
+* **A/B Testing**: Feature experimentation
 
 ### Analytics Implementation
 
@@ -444,6 +591,12 @@ analyticsService.trackScreen("UserProfile")
 
 // Track errors
 analyticsService.trackError(error)
+
+// Custom events
+analyticsService.trackCustomEvent("feature_used", properties: [
+    "feature_name": "dark_mode",
+    "user_type": "premium"
+])
 ```
 
 ---
@@ -454,411 +607,13 @@ analyticsService.trackError(error)
 
 ```swift
 // Primary colors
-Color.primaryBlue
-Color.secondaryBlue
-Color.accentBlue
-
-// Semantic colors
-Color.successGreen
-Color.warningOrange
-Color.errorRed
-
-// Neutral colors
-Color.primaryText
-Color.secondaryText
-Color.primaryBackground
-```
-
-### Typography
-
-```swift
-// Text styles
-Text("Title").font(.largeTitle)
-Text("Headline").font(.headline)
-Text("Body").font(.body)
-Text("Caption").font(.caption)
-```
-
-### Animations
-
-```swift
-// Custom animations
-.animation(.smoothSpring, value: isAnimating)
-.animation(.bouncySpring, value: isPressed)
-.animation(.fadeIn, value: isVisible)
-```
-
----
-
-## 🌍 Internationalization
-
-### Multi-Language Support
-
-```swift
-// Localized strings
-Text("welcome_message".localized)
-Text("user_count".localized(with: userCount))
-
-// RTL support
-.environment(\.layoutDirection, .rightToLeft)
-```
-
----
-
-## ♿ Accessibility
-
-### Accessibility Features
-
-- **VoiceOver** support with proper labels and hints
-- **Dynamic Type** support for text scaling
-- **High Contrast** mode support
-- **Reduce Motion** support for animations
-- **Screen Reader** optimization
-
-### Accessibility Implementation
-
-```swift
-// Accessibility labels
-.accessibilityLabel("User profile image")
-.accessibilityHint("Double tap to edit profile")
-
-// Dynamic type
-.font(.body)
-.dynamicTypeSize(.large)
-
-// Reduce motion
-.animation(isReducedMotion ? nil : .smoothSpring)
-```
-
----
-
-## 📚 Documentation
-
-### API Documentation
-
-Comprehensive API documentation is available for all public interfaces:
-
-- [Domain Layer API](Documentation/DomainAPI.md)
-- [Data Layer API](Documentation/DataAPI.md)
-- [Presentation Layer API](Documentation/PresentationAPI.md)
-- [Infrastructure Layer API](Documentation/InfrastructureAPI.md)
-
-### Architecture Documentation
-
-- [Clean Architecture Guide](Documentation/ArchitectureGuide.md)
-- [SOLID Principles Guide](Documentation/SOLIDGuide.md)
-- [Testing Strategy](Documentation/TestingGuide.md)
-- [Performance Guide](Documentation/PerformanceGuide.md)
-- [Security Guide](Documentation/SecurityGuide.md)
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-### Development Setup
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Ensure all tests pass
-6. Submit a pull request
-
-### Code Standards
-
-- Follow Swift API Design Guidelines
-- Maintain 100% test coverage
-- Use meaningful commit messages
-- Update documentation as needed
-
----
-
-## 📊 Project Statistics
-
-<div align="center">
-
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/ios-clean-architecture-template?style=social)](https://github.com/muhittincamdali/ios-clean-architecture-template/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/ios-clean-architecture-template?style=social)](https://github.com/muhittincamdali/ios-clean-architecture-template/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/pulls)
-
-</div>
-
-## 🌟 Stargazers
-
-[![Stargazers repo roster for @muhittincamdali/ios-clean-architecture-template](https://reporoster.com/stars/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/stargazers)
-
-## 🙏 Acknowledgments
-
-- Apple for the excellent iOS development platform
-- The Swift community for inspiration and feedback
-- All contributors who help improve this template
-- Clean Architecture principles by Robert C. Martin
-- SOLID principles for maintainable code
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🏆 Quality Standards
-
-### 500 Million Dollar Quality
-
-This template maintains the highest standards:
-
-- **Professional Code Quality**: Enterprise-grade code
-- **Comprehensive Testing**: 100% test coverage
-- **Excellent Documentation**: Clear and complete
-- **Performance Optimization**: Fast and efficient
-- **Security Best Practices**: Safe and secure
-- **Accessibility Compliance**: Inclusive design
-- **Internationalization**: Multi-language support
-
-### Continuous Improvement
-
-- **Regular Code Reviews**: Maintain quality
-- **Performance Monitoring**: Track improvements
-- **Security Audits**: Ensure safety
-- **User Feedback**: Incorporate suggestions
-- **Industry Standards**: Follow best practices
-
----
-
-<div align="center">
-
-**🚀 Professional iOS Clean Architecture Template**
-
-**🏆 World-Class Quality Standards**
-
-</div>
-
----
-
-## 🏗️ Architecture Details
-
-### 🎯 Clean Architecture Layers
-
-#### 📊 Domain Layer
-The innermost layer containing business logic and entities:
-
-```swift
-// Entities
-struct User: Codable, Identifiable {
-    let id: String
-    let name: String
-    let email: String
-    let role: UserRole
-}
-
-// Use Cases
-struct GetUserUseCase {
-    func execute(id: String) async throws -> User
-}
-
-// Protocols
-protocol UserRepositoryProtocol {
-    func getUser(id: String) async throws -> User
-}
-```
-
-#### 📁 Data Layer
-Handles data access and external dependencies:
-
-```swift
-// Repository Implementation
-class UserRepository: UserRepositoryProtocol {
-    private let remoteDataSource: UserRemoteDataSource
-    private let localDataSource: UserLocalDataSource
-    
-    func getUser(id: String) async throws -> User {
-        // Implementation
-    }
-}
-```
-
-#### 🎨 Presentation Layer
-Manages UI and user interactions:
-
-```swift
-// ViewModel
-class UserListViewModel: ObservableObject {
-    @Published var users: [User] = []
-    
-    func loadUsers() async {
-        // Implementation
-    }
-}
-
-// View
-struct UserListView: View {
-    @StateObject private var viewModel = UserListViewModel()
-    
-    var body: some View {
-        List(viewModel.users) { user in
-            UserRowView(user: user)
-        }
-    }
-}
-```
-
-#### 🔧 Infrastructure Layer
-Provides external services and utilities:
-
-```swift
-// Network Service
-class APIService {
-    func request<T: Codable>(_ endpoint: APIEndpoint) async throws -> T
-}
-
-// Storage Service
-class SecureStorage {
-    func save(_ data: Data, forKey key: String) throws
-}
-```
-
-### 🔄 Dependency Flow
-
-```
-Presentation → Domain ← Data
-     ↓           ↑        ↓
-Infrastructure → Domain ← Infrastructure
-```
-
-### 📊 Data Flow
-
-1. **User Action**: User interacts with UI
-2. **ViewModel**: Processes user action
-3. **Use Case**: Executes business logic
-4. **Repository**: Accesses data sources
-5. **Data Source**: Fetches from remote/local
-6. **Response**: Data flows back through layers
-7. **UI Update**: View reflects changes
-
----
-
-## 🧪 Testing Strategy
-
-### Test Pyramid
-
-```
-    /\
-   /  \     E2E Tests (5%)
-  /____\    Integration Tests (15%)
- /______\   Unit Tests (80%)
-```
-
-### Unit Tests
-
-- **Domain Layer**: Use cases and business logic
-- **Data Layer**: Repository implementations
-- **Presentation Layer**: ViewModels and UI logic
-
-### Integration Tests
-
-- **Repository Integration**: Data layer with real sources
-- **Use Case Integration**: Business logic with repositories
-- **ViewModel Integration**: UI logic with use cases
-
-### UI Tests
-
-- **User Flows**: Complete user journeys
-- **Accessibility**: Screen reader and voice control
-- **Performance**: UI responsiveness and animations
-
----
-
-## ⚡ Performance Optimization
-
-### App Launch Optimization
-
-- **Lazy Loading**: Load resources on demand
-- **Background Processing**: Move heavy work to background
-- **Image Optimization**: Compress and cache images
-- **Network Optimization**: Parallel requests and caching
-
-### Memory Management
-
-- **ARC Optimization**: Proper memory management
-- **Image Caching**: Efficient image storage
-- **Background Cleanup**: Clear unused resources
-- **Memory Monitoring**: Track memory usage
-
-### Network Optimization
-
-- **Request Batching**: Combine multiple requests
-- **Response Caching**: Cache API responses
-- **Compression**: Compress request/response data
-- **Connection Pooling**: Reuse network connections
-
----
-
-## 🔒 Security Implementation
-
-### Network Security
-
-- **SSL/TLS**: Encrypt all network communications
-- **Certificate Pinning**: Prevent man-in-the-middle attacks
-- **Request Signing**: Sign API requests for authenticity
-- **Rate Limiting**: Prevent abuse and DDoS
-
-### Data Security
-
-- **Keychain Storage**: Secure credential storage
-- **Data Encryption**: Encrypt sensitive data
-- **Input Validation**: Validate all user inputs
-- **Output Encoding**: Prevent injection attacks
-
-### Authentication
-
-- **Biometric Auth**: Touch ID and Face ID support
-- **OAuth 2.0**: Standard authentication protocol
-- **JWT Tokens**: Secure token-based authentication
-- **Session Management**: Secure session handling
-
----
-
-## 📊 Analytics and Monitoring
-
-### User Analytics
-
-- **Event Tracking**: Track user interactions
-- **Funnel Analysis**: Analyze user journeys
-- **A/B Testing**: Test feature variations
-- **Conversion Tracking**: Monitor goal completions
-
-### Performance Monitoring
-
-- **App Performance**: Monitor app metrics
-- **Network Performance**: Track API response times
-- **Crash Reporting**: Automatic error tracking
-- **User Experience**: Monitor user satisfaction
-
-### Business Intelligence
-
-- **User Behavior**: Analyze user patterns
-- **Feature Usage**: Track feature adoption
-- **Revenue Analytics**: Monitor business metrics
-- **Predictive Analytics**: Forecast user behavior
-
----
-
-## 🎨 Design System
-
-### Color System
-
-```swift
-// Primary Colors
 extension Color {
     static let primaryBlue = Color(red: 0/255, green: 122/255, blue: 255/255)
     static let secondaryBlue = Color(red: 64/255, green: 156/255, blue: 255/255)
     static let accentBlue = Color(red: 128/255, green: 190/255, blue: 255/255)
 }
 
-// Semantic Colors
+// Semantic colors
 extension Color {
     static let successGreen = Color(red: 52/255, green: 199/255, blue: 89/255)
     static let warningOrange = Color(red: 255/255, green: 149/255, blue: 0/255)
@@ -866,10 +621,10 @@ extension Color {
 }
 ```
 
-### Typography System
+### Typography
 
 ```swift
-// Text Styles
+// Text styles
 extension Font {
     static let displayLarge = Font.system(size: 34, weight: .bold)
     static let displayMedium = Font.system(size: 28, weight: .semibold)
@@ -882,7 +637,7 @@ extension Font {
 ### Spacing System
 
 ```swift
-// Spacing Constants
+// Spacing constants
 struct Spacing {
     static let xs: CGFloat = 4
     static let sm: CGFloat = 8
@@ -890,6 +645,17 @@ struct Spacing {
     static let lg: CGFloat = 24
     static let xl: CGFloat = 32
     static let xxl: CGFloat = 48
+}
+```
+
+### Animations
+
+```swift
+// Custom animations
+struct CustomAnimations {
+    static let spring = Animation.spring(response: 0.6, dampingFraction: 0.8)
+    static let easeInOut = Animation.easeInOut(duration: 0.3)
+    static let bounce = Animation.interpolatingSpring(stiffness: 100, damping: 10)
 }
 ```
 
@@ -966,287 +732,92 @@ Image("arrow")
 
 ---
 
-## 📚 Examples
+## 📚 Documentation
 
-### Basic Example
+### API Documentation
 
-```swift
-@main
-struct BasicExampleApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .environmentObject(DependencyContainer())
-        }
-    }
-}
+Comprehensive API documentation is available for all public interfaces:
 
-struct ContentView: View {
-    @StateObject private var viewModel = UserListViewModel()
-    
-    var body: some View {
-        NavigationView {
-            UserListView(viewModel: viewModel)
-                .navigationTitle("Users")
-        }
-    }
-}
-```
+* [Domain Layer API](Documentation/DomainAPI.md) - Business logic and entities
+* [Data Layer API](Documentation/DataAPI.md) - Data access and repositories
+* [Presentation Layer API](Documentation/PresentationAPI.md) - UI components and view models
+* [Infrastructure Layer API](Documentation/InfrastructureAPI.md) - External services and utilities
 
-### Advanced Example
+### Architecture Documentation
 
-```swift
-// Custom dependency injection
-class AppDependencyContainer: DependencyContainer {
-    override func setupDependencies() {
-        register(UserRepositoryProtocol.self) { _ in
-            UserRepository(
-                remoteDataSource: UserRemoteDataSource(),
-                localDataSource: UserLocalDataSource()
-            )
-        }
-        
-        register(GetUserUseCaseProtocol.self) { container in
-            GetUserUseCase(
-                repository: container.resolve(UserRepositoryProtocol.self)
-            )
-        }
-    }
-}
+* [Clean Architecture Guide](Documentation/ArchitectureGuide.md) - Complete architecture overview
+* [SOLID Principles Guide](Documentation/SOLIDGuide.md) - Design principles implementation
+* [Testing Strategy](Documentation/TestingGuide.md) - Comprehensive testing approach
+* [Performance Guide](Documentation/PerformanceGuide.md) - Optimization techniques
+* [Security Guide](Documentation/SecurityGuide.md) - Security best practices
 
-// Custom view with animations
-struct AnimatedUserListView: View {
-    @StateObject private var viewModel = UserListViewModel()
-    @State private var isAnimating = false
-    
-    var body: some View {
-        List(viewModel.users) { user in
-            UserRowView(user: user)
-                .opacity(isAnimating ? 1 : 0)
-                .offset(y: isAnimating ? 0 : 50)
-        }
-        .onAppear {
-            withAnimation(.easeInOut(duration: 0.6)) {
-                isAnimating = true
-            }
-        }
-    }
-}
-```
+### Examples
+
+* [Basic Example](Examples/BasicExample/) - Simple implementation
+* [Advanced Example](Examples/AdvancedExample/) - Complex scenarios
+* [Enterprise Example](Examples/EnterpriseExample/) - Large-scale applications
 
 ---
 
-## 🚀 Getting Started
+## 🤝 Contributing
 
-### 1. Clone the Repository
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-```bash
-git clone https://github.com/muhittincamdali/ios-clean-architecture-template.git
-cd ios-clean-architecture-template
-```
+### Development Setup
 
-### 2. Install Dependencies
+1. **Fork** the repository
+2. **Create feature branch** (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open Pull Request**
 
-```bash
-swift package resolve
-```
+### Code Standards
 
-### 3. Open in Xcode
-
-```bash
-open Package.swift
-```
-
-### 4. Build and Run
-
-```bash
-swift build
-swift test
-```
-
-### 5. Start Developing
-
-```swift
-// Create your first view
-struct MyFirstView: View {
-    var body: some View {
-        Text("Hello, Clean Architecture!")
-            .font(.title)
-            .foregroundColor(.primaryBlue)
-    }
-}
-```
+* Follow Swift API Design Guidelines
+* Maintain 100% test coverage
+* Use meaningful commit messages
+* Update documentation as needed
+* Follow clean architecture principles
+* Implement proper error handling
+* Add comprehensive examples
 
 ---
 
-## 📈 Performance Benchmarks
+## 📄 License
 
-### App Launch Performance
-
-| Metric | Target | Current |
-|--------|--------|---------|
-| Cold Start | < 1.3s | 1.1s |
-| Warm Start | < 0.8s | 0.6s |
-| Hot Start | < 0.5s | 0.3s |
-
-### Network Performance
-
-| Metric | Target | Current |
-|--------|--------|---------|
-| API Response | < 200ms | 150ms |
-| Image Loading | < 500ms | 300ms |
-| Data Sync | < 2s | 1.5s |
-
-### Memory Usage
-
-| Metric | Target | Current |
-|--------|--------|---------|
-| Peak Memory | < 200MB | 180MB |
-| Background Memory | < 50MB | 40MB |
-| Memory Leaks | 0 | 0 |
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🔧 Configuration
+## 🙏 Acknowledgments
 
-### Environment Configuration
-
-```swift
-// Environment setup
-enum Environment {
-    case development
-    case staging
-    case production
-    
-    var apiBaseURL: String {
-        switch self {
-        case .development:
-            return "https://dev-api.example.com"
-        case .staging:
-            return "https://staging-api.example.com"
-        case .production:
-            return "https://api.example.com"
-        }
-    }
-}
-```
-
-### Feature Flags
-
-```swift
-// Feature flag management
-class FeatureFlags {
-    static let shared = FeatureFlags()
-    
-    var isAnalyticsEnabled: Bool = true
-    var isCrashReportingEnabled: Bool = true
-    var isPerformanceMonitoringEnabled: Bool = true
-}
-```
+* **Apple** for the excellent iOS development platform
+* **The Swift Community** for inspiration and feedback
+* **All Contributors** who help improve this template
+* **Clean Architecture** principles by Robert C. Martin
+* **SOLID Principles** for maintainable code
+* **Open Source Community** for continuous innovation
+* **iOS Developer Community** for best practices and standards
 
 ---
-
-## 📊 Analytics Dashboard
-
-### User Metrics
-
-- **Daily Active Users**: 10,000+
-- **Monthly Active Users**: 100,000+
-- **User Retention**: 85%
-- **Session Duration**: 15 minutes average
-
-### Performance Metrics
-
-- **App Launch Time**: 1.1s average
-- **API Response Time**: 150ms average
-- **Crash Rate**: 0.1%
-- **Memory Usage**: 180MB average
-
-### Business Metrics
-
-- **Feature Adoption**: 90%
-- **User Satisfaction**: 4.8/5
-- **Support Tickets**: < 1%
-- **App Store Rating**: 4.9/5
-
----
-
-## 🏆 Awards and Recognition
-
-- **🏆 Best iOS Architecture 2024** - iOS Developer Awards
-- **🥇 Clean Code Excellence** - Swift Community Awards
-- **🎖️ Performance Champion** - Mobile Performance Awards
-- **💎 Quality Assurance** - Software Quality Awards
-
----
-
-## 📞 Support
-
-### Getting Help
-
-- **📖 Documentation**: [Full Documentation](Documentation/)
-- **🐛 Bug Reports**: [GitHub Issues](https://github.com/muhittincamdali/ios-clean-architecture-template/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/muhittincamdali/ios-clean-architecture-template/discussions)
-- **📧 Email**: [Contact Support](mailto:support@ioscleanarchitecture.com)
-
-### Community
-
-- **👥 Discord**: [Join Community](https://discord.gg/ioscleanarchitecture)
-- **🐦 Twitter**: [@iOSCleanArch](https://twitter.com/iOSCleanArch)
-- **📱 LinkedIn**: [iOS Clean Architecture](https://linkedin.com/company/ioscleanarchitecture)
-
----
-
-<div align="center">
 
 **⭐ Star this repository if it helped you!**
 
-**🚀 World-Class iOS Clean Architecture Template**
-
-**🏆 Professional Quality Standards**
-
-</div>
-
 ---
 
-## 🏷️ Topics
+## 📊 Project Statistics
 
 <div align="center">
 
-![Swift](https://img.shields.io/badge/Swift-5.7+-FA7343?style=flat-square)
-![iOS](https://img.shields.io/badge/iOS-15.0+-000000?style=flat-square)
-![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-Domain%20Data%20Presentation-007ACC?style=flat-square)
-![SOLID](https://img.shields.io/badge/SOLID-Principles-4CAF50?style=flat-square)
-![MVVM](https://img.shields.io/badge/MVVM-Pattern-9C27B0?style=flat-square)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-Declarative-FF6B6B?style=flat-square)
-![UIKit](https://img.shields.io/badge/UIKit-Framework-2196F3?style=flat-square)
-![Dependency Injection](https://img.shields.io/badge/DI-Container-FF9800?style=flat-square)
-![Unit Testing](https://img.shields.io/badge/Unit%20Testing-100%25-4CAF50?style=flat-square)
-![UI Testing](https://img.shields.io/badge/UI%20Testing-Automated-FF5722?style=flat-square)
-![Performance](https://img.shields.io/badge/Performance-Optimized-00BCD4?style=flat-square)
-![Security](https://img.shields.io/badge/Security-Best%20Practices-795548?style=flat-square)
-![Analytics](https://img.shields.io/badge/Analytics-Tracking-9E9E9E?style=flat-square)
-![Accessibility](https://img.shields.io/badge/Accessibility-WCAG-607D8B?style=flat-square)
-![Localization](https://img.shields.io/badge/Localization-Multi%20Language-8BC34A?style=flat-square)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-673AB7?style=flat-square)
-![Swift Package Manager](https://img.shields.io/badge/SPM-Dependencies-FF6B35?style=flat-square)
-![CocoaPods](https://img.shields.io/badge/CocoaPods-Supported-E91E63?style=flat-square)
-![Alamofire](https://img.shields.io/badge/Alamofire-Networking-FF6B6B?style=flat-square)
-![Kingfisher](https://img.shields.io/badge/Kingfisher-Image%20Loading-00BCD4?style=flat-square)
-![RxSwift](https://img.shields.io/badge/RxSwift-Reactive-FF6B35?style=flat-square)
-![Firebase](https://img.shields.io/badge/Firebase-Backend-FFCA28?style=flat-square)
-![Lottie](https://img.shields.io/badge/Lottie-Animation-00BCD4?style=flat-square)
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/ios-clean-architecture-template?style=social)](https://github.com/muhittincamdali/ios-clean-architecture-template/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/ios-clean-architecture-template?style=social)](https://github.com/muhittincamdali/ios-clean-architecture-template/network)
+[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/commits/master)
 
 </div>
 
----
+## 🌟 Stargazers
 
-<div align="center">
-
-**⭐ If you like this project, please give it a star!**
-
-**🚀 World-Class iOS Clean Architecture Template**
-
-**🏆 500 Million Dollar Quality Standard**
-
-</div>
+[![Stargazers repo roster for @muhittincamdali/ios-clean-architecture-template](https://reporoster.com/stars/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/stargazers)
