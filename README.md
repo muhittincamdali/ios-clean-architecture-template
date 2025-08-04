@@ -575,6 +575,29 @@ We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING
 
 ---
 
+## 📊 Project Statistics
+
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/ios-clean-architecture-template?style=social)](https://github.com/muhittincamdali/ios-clean-architecture-template/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/ios-clean-architecture-template?style=social)](https://github.com/muhittincamdali/ios-clean-architecture-template/network)
+[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/pulls)
+
+</div>
+
+## 🌟 Stargazers
+
+[![Stargazers repo roster for @muhittincamdali/ios-clean-architecture-template](https://reporoster.com/stars/muhittincamdali/ios-clean-architecture-template)](https://github.com/muhittincamdali/ios-clean-architecture-template/stargazers)
+
+## 🙏 Acknowledgments
+
+- Apple for the excellent iOS development platform
+- The Swift community for inspiration and feedback
+- All contributors who help improve this template
+- Clean Architecture principles by Robert C. Martin
+- SOLID principles for maintainable code
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -607,11 +630,9 @@ This template maintains the highest standards:
 
 <div align="center">
 
-![App Demo](https://via.placeholder.com/800x400/007AFF/FFFFFF?text=App+Demo+GIF)
+**🚀 Professional iOS Clean Architecture Template**
 
-**🎬 [Watch Live Demo](https://muhittincamdali.github.io/ios-clean-architecture-template)**
-
-**📱 [App Store](https://apps.apple.com/app/ios-clean-architecture-template) • [TestFlight](https://testflight.apple.com/join/ios-clean-architecture-template)**
+**🏆 World-Class Quality Standards**
 
 </div>
 
@@ -1178,11 +1199,11 @@ class FeatureFlags {
 
 <div align="center">
 
-**⭐ If you like this project, please give it a star!**
+**⭐ Star this repository if it helped you!**
 
 **🚀 World-Class iOS Clean Architecture Template**
 
-**🏆 500 Million Dollar Quality Standard**
+**🏆 Professional Quality Standards**
 
 </div>
 
