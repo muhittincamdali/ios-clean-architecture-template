@@ -68,11 +68,9 @@
 - **🎭 Customization**: Highly customizable and flexible components
 - **📱 Cross-Platform**: SwiftUI and UIKit support
 - **⚡ Performance**: Optimized for performance and smooth animations
-- **🌍 Internationalization**: Multi-language and RTL support
 - **🎨 Design System**: Complete design system and theming
 - **📚 Documentation**: Comprehensive documentation and examples
 - **🔧 Easy Integration**: Simple setup and configuration
-- **🎯 Production Ready**: Battle-tested in real applications
 - **🚀 Modern Architecture**: Clean, maintainable code structure
 - **📈 Continuous Updates**: Regular updates and improvements
 
@@ -107,7 +105,6 @@
 * **Effects**: Visual effects and enhancements
 * **Gradients**: Beautiful gradient backgrounds and effects
 * **Shadows**: Custom shadow and elevation effects
-* **Borders**: Flexible border and outline customization
 * **Corners**: Custom corner radius and rounded corners
 
 ### ♿ Accessibility
@@ -162,7 +159,6 @@ buttonManager.configure(buttonConfig)
 
 // Create primary button
 let primaryButton = CustomButton(
-    title: "Get Started",
     style: .primary,
     size: .large
 )
@@ -177,7 +173,6 @@ view.addSubview(primaryButton)
 
 // Create secondary button
 let secondaryButton = CustomButton(
-    title: "Learn More",
     style: .secondary,
     size: .medium
 )
@@ -260,10 +255,7 @@ cardManager.configure(cardConfig)
 
 // Create product card
 let productCard = CustomCard(
-    title: "iPhone 15 Pro",
-    subtitle: "Latest Apple smartphone",
     image: "iphone_image",
-    price: "$999"
 )
 
 // Configure card
@@ -284,7 +276,6 @@ view.addSubview(productCard)
 
 // Create info card
 let infoCard = CustomCard(
-    title: "Information",
     content: "This is an informational card with custom content.",
     style: .info
 )
@@ -329,7 +320,6 @@ let customTheme = CustomTheme(
         text: .label
     ),
     typography: ThemeTypography(
-        titleFont: .systemFont(ofSize: 24, weight: .bold),
         bodyFont: .systemFont(ofSize: 16, weight: .regular),
         captionFont: .systemFont(ofSize: 12, weight: .light)
     )
@@ -495,7 +485,6 @@ voiceOverManager.addVoiceOverSupport(
     to: primaryButton,
     label: "Get Started Button",
     hint: "Double tap to begin the onboarding process",
-    traits: [.button, .updatesFrequently]
 ) { result in
     switch result {
     case .success:
@@ -542,7 +531,6 @@ voiceOverManager.addCustomAction(
 
 ```bash
 # Clone the repository
-git clone https://github.com/muhittincamdali/iOSUIComponents.git
 
 # Navigate to project directory
 cd iOSUIComponents
@@ -560,14 +548,12 @@ Add to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/muhittincamdali/iOSUIComponents.git", from: "1.0.0")
 ]
 ```
 
 #### Xcode Integration
 
 1. In Xcode, go to **File** → **Add Package Dependencies**
-2. Enter the repository URL: `https://github.com/muhittincamdali/iOSUIComponents.git`
 3. Select the version you want to use
 4. Click **Add Package**
 
@@ -609,13 +595,11 @@ let simpleButton = SimpleCustomButton()
 
 // Create button
 simpleButton.createButton(
-    title: "Tap Me",
     style: .primary
 ) { result in
     switch result {
     case .success(let button):
         print("✅ Button created")
-        print("Title: \(button.title)")
         print("Style: \(button.style)")
     case .failure(let error):
         print("❌ Button creation failed: \(error)")
@@ -772,12 +756,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/commits/master)
 
 </div>
 
@@ -785,10 +763,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=muhittincamdali&show_icons=true&theme=radical&hide_border=true)](https://github.com/muhittincamdali)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=muhittincamdali&layout=compact&theme=radical&hide_border=true)](https://github.com/muhittincamdali)
-[![GitHub Streak](https://streak-stats.demolab.com/?user=muhittincamdali&theme=radical&hide_border=true)](https://github.com/muhittincamdali)
-[![Profile Views](https://komarev.com/ghpvc/?username=muhittincamdali&color=brightgreen&style=for-the-badge)](https://github.com/muhittincamdali)
 
 </div>
 
@@ -796,10 +770,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub repo size](https://img.shields.io/github/repo-size/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
-[![GitHub language count](https://img.shields.io/github/languages/count/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
-[![GitHub top language](https://img.shields.io/github/languages/top/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
 
 </div>
 
@@ -807,21 +777,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
-[![GitHub commit activity (weekly)](https://img.shields.io/github/commit-activity/w/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
-[![GitHub commit activity (yearly)](https://img.shields.io/github/commit-activity/y/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
 
 </div>
 
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @muhittincamdali/iOSUIComponents](https://reporoster.com/stars/muhittincamdali/iOSUIComponents)](https://github.com/muhittincamdali/iOSUIComponents/stargazers)
 
 ## 🏆 Achievements
 
 <div align="center">
 
-[![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=muhittincamdali&theme=radical&no-frame=true&no-bg=true&margin-w=4)](https://github.com/muhittincamdali)
 
 </div>
 
@@ -829,10 +794,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub Repo Views](https://img.shields.io/github/watchers/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
-[![GitHub Repo Downloads](https://img.shields.io/github/downloads/muhittincamdali/iOSUIComponents/total?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
-[![GitHub Repo Releases](https://img.shields.io/github/v/release/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/releases)
-[![GitHub Repo Tags](https://img.shields.io/github/v/tag/muhittincamdali/iOSUIComponents?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/tags)
 
 </div>
 
@@ -851,10 +812,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![Performance](https://img.shields.io/badge/Performance-Optimized-brightgreen?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
-[![Memory](https://img.shields.io/badge/Memory-Efficient-brightgreen?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
-[![Animation](https://img.shields.io/badge/Animation-Smooth-brightgreen?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
-[![Accessibility](https://img.shields.io/badge/Accessibility-WCAG%20AA-brightgreen?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents)
 
 </div>
 
@@ -862,9 +819,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub Discussions](https://img.shields.io/badge/Discussions-Active-blue?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/discussions)
-[![GitHub Issues](https://img.shields.io/badge/Issues-Supported-blue?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/issues)
-[![GitHub Pull Requests](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github)](https://github.com/muhittincamdali/iOSUIComponents/pulls)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsors-Welcome-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/muhittincamdali)
 
 </div>
