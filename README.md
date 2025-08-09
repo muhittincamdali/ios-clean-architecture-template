@@ -815,7 +815,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @muhittincamdali/iOSUIComponents](https://reporoster.com/stars/muhittincamdali/iOSUIComponents)](https://github.com/muhittincamdali/iOSUIComponents/stargazers)
+[![Stargazers repo roster for @muhittincamdali/iOSUIComponents](https://starchart.cc/muhittincamdali/iOSUIComponents.svg)](https://github.com/muhittincamdali/iOSUIComponents/stargazers)
 
 ## 🏆 Achievements
 
