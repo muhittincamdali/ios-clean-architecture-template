@@ -1,4 +1,5 @@
 # 🎨 iOS UI Components
+[![CI](https://github.com/muhittincamdali/ios-clean-architecture-template/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/muhittincamdali/ios-clean-architecture-template/actions/workflows/ci.yml)
 
 <!-- TOC START -->
 ## Table of Contents
