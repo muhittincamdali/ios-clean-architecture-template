@@ -88,7 +88,7 @@
 
 <div align="center">
 
-![iOS UI Components Demo](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=iOS+UI+Components+Demo)
+![iOS UI Components Demo](https://placehold.co/800x400/4CAF50/FFFFFF?text=iOS+UI+Components+Demo)
 *Professional iOS UI Components Library - Modern, Beautiful, Accessible*
 
 </div>
