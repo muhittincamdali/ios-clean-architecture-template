@@ -1,5 +1,42 @@
 # 📚 API Reference
 
+<!-- TOC START -->
+## Table of Contents
+- [📚 API Reference](#-api-reference)
+- [📋 Table of Contents](#-table-of-contents)
+- [🏗️ Domain Layer](#-domain-layer)
+  - [Entities](#entities)
+    - [User Entity](#user-entity)
+    - [UserRole Enum](#userrole-enum)
+  - [Use Cases](#use-cases)
+    - [GetUserUseCase](#getuserusecase)
+    - [GetUsersUseCase](#getusersusecase)
+  - [Protocols](#protocols)
+    - [UserRepositoryProtocol](#userrepositoryprotocol)
+    - [UserValidatorProtocol](#uservalidatorprotocol)
+- [📊 Data Layer](#-data-layer)
+  - [Data Transfer Objects (DTOs)](#data-transfer-objects-dtos)
+    - [UserDTO](#userdto)
+  - [API Models](#api-models)
+    - [API Response Models](#api-response-models)
+  - [Data Sources](#data-sources)
+    - [Remote Data Source](#remote-data-source)
+    - [Local Data Source](#local-data-source)
+  - [Repository Implementation](#repository-implementation)
+- [🎨 Presentation Layer](#-presentation-layer)
+  - [View Models](#view-models)
+    - [UserViewModel](#userviewmodel)
+  - [Views](#views)
+    - [UserView](#userview)
+- [🔧 Infrastructure Layer](#-infrastructure-layer)
+  - [Network Service](#network-service)
+  - [Storage Service](#storage-service)
+- [❌ Error Handling](#-error-handling)
+  - [Error Types](#error-types)
+  - [Error Handling Example](#error-handling-example)
+<!-- TOC END -->
+
+
 Complete API documentation for iOS Clean Architecture Template.
 
 ## 📋 Table of Contents

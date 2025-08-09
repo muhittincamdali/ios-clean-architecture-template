@@ -1,5 +1,37 @@
 # ⚡ Performance Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [⚡ Performance Guide](#-performance-guide)
+- [🎯 Performance Overview](#-performance-overview)
+- [📊 Performance Metrics](#-performance-metrics)
+  - [🚀 App Launch Performance](#-app-launch-performance)
+  - [⚡ Network Performance](#-network-performance)
+  - [🎭 Animation Performance](#-animation-performance)
+- [💾 Memory Management](#-memory-management)
+  - [🧠 Memory Optimization](#-memory-optimization)
+  - [🖼️ Image Optimization](#-image-optimization)
+- [🔋 Battery Optimization](#-battery-optimization)
+  - [🔋 Battery Usage Monitor](#-battery-usage-monitor)
+  - [🔋 Background Task Optimization](#-background-task-optimization)
+- [📱 Storage Optimization](#-storage-optimization)
+  - [💾 Storage Manager](#-storage-manager)
+- [🎭 Animation Performance](#-animation-performance)
+  - [🎭 Optimized Animations](#-optimized-animations)
+- [📊 Performance Monitoring](#-performance-monitoring)
+  - [📊 Real-time Monitoring](#-real-time-monitoring)
+- [🧪 Performance Testing](#-performance-testing)
+  - [🧪 Performance Test Suite](#-performance-test-suite)
+- [📋 Performance Checklist](#-performance-checklist)
+  - [🚀 App Launch](#-app-launch)
+  - [⚡ Network](#-network)
+  - [🎭 Animations](#-animations)
+  - [💾 Memory](#-memory)
+  - [🔋 Battery](#-battery)
+  - [📱 Storage](#-storage)
+<!-- TOC END -->
+
+
 <div align="center">
 
 **⚡ Dünya standartlarında performans optimizasyonu rehberi**

@@ -1,5 +1,40 @@
 # 🏗️ Architecture Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🏗️ Architecture Guide](#-architecture-guide)
+- [🎯 Clean Architecture Overview](#-clean-architecture-overview)
+  - [🏗️ Katman Yapısı](#-katman-yaps)
+  - [🔄 Bağımlılık Yönü](#-bagmllk-yonu)
+- [📊 Domain Layer](#-domain-layer)
+  - [🏢 Entities](#-entities)
+  - [📋 Use Cases](#-use-cases)
+  - [🤝 Protocols](#-protocols)
+- [💾 Data Layer](#-data-layer)
+  - [🗄️ Repositories](#-repositories)
+  - [📡 Remote DataSources](#-remote-datasources)
+  - [💿 Local DataSources](#-local-datasources)
+- [📱 Presentation Layer](#-presentation-layer)
+  - [🧠 ViewModels](#-viewmodels)
+  - [🎨 Views](#-views)
+  - [🎯 Coordinators](#-coordinators)
+- [🔧 Infrastructure Layer](#-infrastructure-layer)
+  - [🔐 Security](#-security)
+  - [📊 Analytics](#-analytics)
+  - [🎨 Design System](#-design-system)
+  - [⚡ Performance](#-performance)
+- [🔄 Dependency Injection](#-dependency-injection)
+- [🧪 Testing Strategy](#-testing-strategy)
+  - [📊 Test Pyramid](#-test-pyramid)
+  - [🧪 Unit Tests](#-unit-tests)
+  - [🧪 Integration Tests](#-integration-tests)
+- [📚 Best Practices](#-best-practices)
+  - [🎯 Clean Architecture Principles](#-clean-architecture-principles)
+  - [🔧 Code Organization](#-code-organization)
+  - [🧪 Testing Guidelines](#-testing-guidelines)
+<!-- TOC END -->
+
+
 <div align="center">
 
 **🏗️ Dünya standartlarında Clean Architecture rehberi**

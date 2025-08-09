@@ -1,5 +1,29 @@
 # Data Layer API
 
+<!-- TOC START -->
+## Table of Contents
+- [Data Layer API](#data-layer-api)
+- [Overview](#overview)
+- [Data Sources](#data-sources)
+  - [Remote Data Source](#remote-data-source)
+  - [Local Data Source](#local-data-source)
+- [Repository Implementations](#repository-implementations)
+  - [User Repository Implementation](#user-repository-implementation)
+  - [Product Repository Implementation](#product-repository-implementation)
+- [API Endpoints](#api-endpoints)
+  - [Endpoint Definition](#endpoint-definition)
+- [Data Models](#data-models)
+  - [API Response Models](#api-response-models)
+- [Error Handling](#error-handling)
+  - [Data Layer Errors](#data-layer-errors)
+- [Caching Strategy](#caching-strategy)
+  - [Cache Implementation](#cache-implementation)
+- [Testing](#testing)
+  - [Repository Tests](#repository-tests)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Data Layer is responsible for data access and persistence. It implements the repository pattern and provides data sources for the domain layer.
