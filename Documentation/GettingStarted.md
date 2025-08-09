@@ -1,5 +1,53 @@
 # 🚀 Getting Started
 
+<!-- TOC START -->
+## Table of Contents
+- [🚀 Getting Started](#-getting-started)
+- [📋 Requirements](#-requirements)
+  - [🖥️ Development Environment](#-development-environment)
+  - [📱 Device Support](#-device-support)
+  - [📦 Dependencies](#-dependencies)
+- [⚡ Quick Start](#-quick-start)
+  - [1. 🍴 Clone the Repository](#1-clone-the-repository)
+- [Clone the repository](#clone-the-repository)
+- [Navigate to project directory](#navigate-to-project-directory)
+  - [2. 📦 Install Dependencies](#2-install-dependencies)
+- [Install CocoaPods (if not installed)](#install-cocoapods-if-not-installed)
+- [Install project dependencies](#install-project-dependencies)
+  - [3. 🚀 Open in Xcode](#3-open-in-xcode)
+- [Open the workspace (not the project file)](#open-the-workspace-not-the-project-file)
+  - [4. 🎯 Run the Project](#4-run-the-project)
+- [🏗️ Project Structure](#-project-structure)
+- [🎯 Adding Your First Feature](#-adding-your-first-feature)
+  - [1. 📊 Domain Layer](#1-domain-layer)
+    - [Create Entity](#create-entity)
+    - [Create Use Case](#create-use-case)
+    - [Create Protocol](#create-protocol)
+  - [2. 💾 Data Layer](#2-data-layer)
+    - [Create DTO](#create-dto)
+    - [Create Repository Implementation](#create-repository-implementation)
+  - [3. 📱 Presentation Layer](#3-presentation-layer)
+    - [Create ViewModel](#create-viewmodel)
+    - [Create View](#create-view)
+- [🧪 Writing Tests](#-writing-tests)
+  - [Unit Tests](#unit-tests)
+  - [UI Tests](#ui-tests)
+- [⚙️ Configuration](#-configuration)
+  - [Environment Setup](#environment-setup)
+  - [Dependency Injection](#dependency-injection)
+- [🚀 Deployment](#-deployment)
+  - [Build Configuration](#build-configuration)
+- [Development build](#development-build)
+- [Release build](#release-build)
+  - [Archive for App Store](#archive-for-app-store)
+- [Archive the project](#archive-the-project)
+- [Export IPA](#export-ipa)
+- [📚 Next Steps](#-next-steps)
+  - [🎯 What to Learn Next](#-what-to-learn-next)
+  - [📖 Recommended Resources](#-recommended-resources)
+<!-- TOC END -->
+
+
 <div align="center">
 
 **🌟 Welcome to the iOS Clean Architecture Template!**

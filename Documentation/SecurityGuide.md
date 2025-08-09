@@ -1,5 +1,54 @@
 # 🔒 Security Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🔒 Security Guide](#-security-guide)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Security Principles](#security-principles)
+  - [Defense in Depth](#defense-in-depth)
+  - [Principle of Least Privilege](#principle-of-least-privilege)
+  - [Secure by Design](#secure-by-design)
+- [Authentication & Authorization](#authentication-authorization)
+  - [Biometric Authentication](#biometric-authentication)
+  - [JWT Token Management](#jwt-token-management)
+  - [OAuth 2.0 Implementation](#oauth-20-implementation)
+- [Data Protection](#data-protection)
+  - [Keychain Integration](#keychain-integration)
+  - [Data Encryption](#data-encryption)
+  - [Secure Storage](#secure-storage)
+- [Network Security](#network-security)
+  - [Certificate Pinning](#certificate-pinning)
+  - [SSL/TLS Configuration](#ssltls-configuration)
+  - [API Security](#api-security)
+- [Code Security](#code-security)
+  - [Input Validation](#input-validation)
+  - [SQL Injection Prevention](#sql-injection-prevention)
+  - [XSS Prevention](#xss-prevention)
+- [App Security](#app-security)
+  - [Jailbreak Detection](#jailbreak-detection)
+  - [App Integrity](#app-integrity)
+  - [Runtime Protection](#runtime-protection)
+- [Security Testing](#security-testing)
+  - [Penetration Testing](#penetration-testing)
+  - [Vulnerability Scanning](#vulnerability-scanning)
+  - [Security Audit](#security-audit)
+- [Compliance](#compliance)
+  - [GDPR Compliance](#gdpr-compliance)
+  - [HIPAA Compliance](#hipaa-compliance)
+  - [SOC 2 Compliance](#soc-2-compliance)
+- [Security Best Practices](#security-best-practices)
+  - [Code Security](#code-security)
+  - [Data Security](#data-security)
+  - [Network Security](#network-security)
+  - [App Security](#app-security)
+- [Security Monitoring](#security-monitoring)
+  - [Security Analytics](#security-analytics)
+  - [Threat Detection](#threat-detection)
+- [Conclusion](#conclusion)
+<!-- TOC END -->
+
+
 ## Overview
 
 This guide provides comprehensive security best practices for iOS applications built with the Clean Architecture Template. Security is a critical aspect of modern iOS development, and this template implements enterprise-grade security measures.

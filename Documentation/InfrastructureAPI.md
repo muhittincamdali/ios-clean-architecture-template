@@ -1,5 +1,25 @@
 # Infrastructure Layer API
 
+<!-- TOC START -->
+## Table of Contents
+- [Infrastructure Layer API](#infrastructure-layer-api)
+- [Overview](#overview)
+- [Networking](#networking)
+  - [Network Client](#network-client)
+  - [Network Error Handling](#network-error-handling)
+- [Logging](#logging)
+  - [Logger](#logger)
+- [Analytics](#analytics)
+  - [Analytics Service](#analytics-service)
+- [Security](#security)
+  - [Security Service](#security-service)
+- [Keychain Service](#keychain-service)
+- [Testing](#testing)
+  - [Infrastructure Tests](#infrastructure-tests)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Infrastructure Layer provides external services, utilities, and cross-cutting concerns. It includes networking, logging, analytics, security, and other infrastructure components.

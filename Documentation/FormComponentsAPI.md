@@ -2,6 +2,25 @@
 
 # FormComponentsAPI
 
+<!-- TOC START -->
+## Table of Contents
+- [FormComponentsAPI](#formcomponentsapi)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Architecture](#architecture)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [API Reference](#api-reference)
+  - [Types](#types)
+  - [Methods](#methods)
+- [Usage Examples](#usage-examples)
+- [Best Practices](#best-practices)
+- [Performance](#performance)
+- [Security](#security)
+- [Troubleshooting](#troubleshooting)
+<!-- TOC END -->
+
+
 ## Overview
 This document provides a comprehensive reference for the component. It explains the purpose, key concepts, and how to use it in production-grade iOS apps.
 

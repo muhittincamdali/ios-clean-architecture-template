@@ -1,5 +1,25 @@
 # Presentation Layer API
 
+<!-- TOC START -->
+## Table of Contents
+- [Presentation Layer API](#presentation-layer-api)
+- [Overview](#overview)
+- [View Models](#view-models)
+  - [User View Model](#user-view-model)
+  - [Product List View Model](#product-list-view-model)
+- [SwiftUI Views](#swiftui-views)
+  - [User Profile View](#user-profile-view)
+  - [Product List View](#product-list-view)
+- [UIKit Integration](#uikit-integration)
+  - [UIKit View Controller](#uikit-view-controller)
+- [Error Handling](#error-handling)
+  - [Presentation Errors](#presentation-errors)
+- [Testing](#testing)
+  - [View Model Tests](#view-model-tests)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Presentation Layer is responsible for UI components, view models, and user interaction. It follows the MVVM pattern and provides a clean interface between the UI and business logic.

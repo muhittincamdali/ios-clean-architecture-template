@@ -1,5 +1,24 @@
 # SOLID Principles Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [SOLID Principles Guide](#solid-principles-guide)
+- [Overview](#overview)
+- [Single Responsibility Principle (SRP)](#single-responsibility-principle-srp)
+- [Open/Closed Principle (OCP)](#openclosed-principle-ocp)
+- [Liskov Substitution Principle (LSP)](#liskov-substitution-principle-lsp)
+- [Interface Segregation Principle (ISP)](#interface-segregation-principle-isp)
+- [Dependency Inversion Principle (DIP)](#dependency-inversion-principle-dip)
+- [SOLID in Clean Architecture](#solid-in-clean-architecture)
+  - [Domain Layer](#domain-layer)
+  - [Data Layer](#data-layer)
+  - [Presentation Layer](#presentation-layer)
+- [Testing SOLID Principles](#testing-solid-principles)
+- [Best Practices](#best-practices)
+- [Conclusion](#conclusion)
+<!-- TOC END -->
+
+
 ## Overview
 
 This guide demonstrates how to implement SOLID principles in iOS development using Clean Architecture.

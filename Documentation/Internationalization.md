@@ -1,5 +1,41 @@
 # 🌍 Internationalization Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [🌍 Internationalization Guide](#-internationalization-guide)
+- [🎯 Internationalization Overview](#-internationalization-overview)
+- [🌍 Desteklenen Diller](#-desteklenen-diller)
+  - [📊 Dil Listesi](#-dil-listesi)
+- [📱 Localization Manager](#-localization-manager)
+  - [🔧 Localization Manager](#-localization-manager)
+- [📝 String Localization](#-string-localization)
+  - [📝 Localized Strings](#-localized-strings)
+  - [📝 Localization Files](#-localization-files)
+- [🎨 RTL Support](#-rtl-support)
+  - [🎨 RTL Layout Manager](#-rtl-layout-manager)
+- [📅 Date and Time Localization](#-date-and-time-localization)
+  - [📅 Date Formatter](#-date-formatter)
+- [💰 Currency Localization](#-currency-localization)
+  - [💰 Currency Formatter](#-currency-formatter)
+- [📏 Measurement Localization](#-measurement-localization)
+  - [📏 Measurement Formatter](#-measurement-formatter)
+- [🎨 Cultural Adaptations](#-cultural-adaptations)
+  - [🎨 Cultural Design Manager](#-cultural-design-manager)
+- [📱 UI Localization](#-ui-localization)
+  - [📱 Localized Views](#-localized-views)
+- [🧪 Localization Testing](#-localization-testing)
+  - [🧪 Localization Tests](#-localization-tests)
+- [📋 Localization Checklist](#-localization-checklist)
+  - [🌍 Language Support](#-language-support)
+  - [📝 String Localization](#-string-localization)
+  - [📅 Date/Time](#-datetime)
+  - [💰 Currency](#-currency)
+  - [📏 Measurements](#-measurements)
+  - [🎨 UI/UX](#-uiux)
+  - [🧪 Testing](#-testing)
+<!-- TOC END -->
+
+
 <div align="center">
 
 **🌍 Dünya standartlarında çoklu dil desteği rehberi**

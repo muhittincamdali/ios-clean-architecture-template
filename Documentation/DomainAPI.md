@@ -1,5 +1,29 @@
 # Domain Layer API
 
+<!-- TOC START -->
+## Table of Contents
+- [Domain Layer API](#domain-layer-api)
+- [Overview](#overview)
+- [Entities](#entities)
+  - [User Entity](#user-entity)
+  - [Product Entity](#product-entity)
+- [Use Cases](#use-cases)
+  - [User Management Use Cases](#user-management-use-cases)
+  - [Product Management Use Cases](#product-management-use-cases)
+- [Repositories](#repositories)
+  - [User Repository](#user-repository)
+  - [Product Repository](#product-repository)
+- [Business Rules](#business-rules)
+  - [Validation Rules](#validation-rules)
+  - [Business Logic](#business-logic)
+- [Error Handling](#error-handling)
+  - [Domain Errors](#domain-errors)
+- [Testing](#testing)
+  - [Unit Tests](#unit-tests)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Domain Layer is the core of the Clean Architecture, containing business logic, entities, and use cases. This layer is independent of external frameworks and libraries.
