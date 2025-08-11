@@ -871,3 +871,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsors-Welcome-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/muhittincamdali)
 
 </div>
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=muhittincamdali/ios-clean-architecture-template&type=Date)](https://star-history.com/#muhittincamdali/ios-clean-architecture-template&Date)
+
