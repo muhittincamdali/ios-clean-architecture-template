@@ -1,5 +1,5 @@
 # 🎨 iOS UI Components
-[![CI](https://github.com/muhittincamdali/ios-clean-architecture-template/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/muhittincamdali/ios-clean-architecture-template/actions/workflows/ci.yml)
+[![CI](https://github.com/muhittincamdali/ios-clean-architecture-template/actions/workflows/ci.yml/badge.svg)](https://github.com/muhittincamdali/ios-clean-architecture-template/actions/workflows/ci.yml)
 
 
 
@@ -17,7 +17,6 @@
 ![Design System](https://img.shields.io/badge/Design%20System-Complete-795548?style=for-the-badge)
 ![Architecture](https://img.shields.io/badge/Architecture-Clean-FF5722?style=for-the-badge)
 ![Swift Package Manager](https://img.shields.io/badge/SPM-Dependencies-FF6B35?style=for-the-badge)
-![CocoaPods](https://img.shields.io/badge/CocoaPods-Supported-E91E63?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=github)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg?style=for-the-badge&logo=github)
 ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=for-the-badge&logo=github)
