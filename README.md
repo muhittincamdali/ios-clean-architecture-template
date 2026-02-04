@@ -35,6 +35,21 @@
 
 ---
 
+## 📋 Table of Contents
+
+- [Overview](#overview)
+- [Architecture Diagram](#architecture-diagram)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Layers](#layers)
+- [Features](#features)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+- [Star History](#-star-history)
+
+---
+
 ## Overview
 
 A battle-tested iOS project template that enforces strict separation of concerns through Clean Architecture layers. Built with **SOLID principles**, **Protocol-Oriented Programming**, and **modern Swift concurrency**. Perfect for scalable apps that need to evolve with changing requirements.
