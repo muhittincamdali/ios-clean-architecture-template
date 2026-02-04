@@ -728,3 +728,15 @@ MIT License - see [LICENSE](LICENSE) for details.
 <p align="center">
   <sub>Built with ❤️ by <a href="https://github.com/muhittincamdali">Muhittin Camdali</a></sub>
 </p>
+
+---
+
+## 📈 Star History
+
+<a href="https://star-history.com/#muhittincamdali/ios-clean-architecture-template&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=muhittincamdali/ios-clean-architecture-template&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=muhittincamdali/ios-clean-architecture-template&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=muhittincamdali/ios-clean-architecture-template&type=Date" />
+ </picture>
+</a>
