@@ -15,6 +15,10 @@
 
 # iOS Clean Architecture Template
 
+## 🚀 Killer Feature: Interactive DDD Generator
+Stop writing boilerplate. This template includes a `generate_module.swift` CLI tool that instantly scaffolds your Domain-Driven Design layers (UseCase, Repository Protocol, Entity) with 100% Swift 6 strict concurrency compliance.
+
+
 <p align="center">
   <a href="README.md">🇺🇸 English</a> |
   <a href="README_TR.md">🇹🇷 Türkçe</a>
