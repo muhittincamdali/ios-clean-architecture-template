@@ -1,36 +1,38 @@
-# ios-clean-architecture-template
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhittincamdali/iOSAppTemplates/master/.github/brand/banner-tr-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhittincamdali/iOSAppTemplates/master/.github/brand/banner-tr-light.svg"><img src="https://raw.githubusercontent.com/muhittincamdali/iOSAppTemplates/master/.github/brand/banner-tr-light.svg" alt="iOSAppTemplates: iOS 18 için 21 SwiftUI uygulama şablonu; her biri kendi adınızla kopyalayabileceğiniz testli bir Swift paketi."></picture></p>
 
-> 🇹🇷 Türkçe | [English](README.md)
+<p align="center"><a href="README.md">English</a> · <a href="README_TR.md">Türkçe</a></p>
 
-🏗️ Clean Architecture template for iOS with MVVM and dependency injection
+# iOSAppTemplates'e taşındı
 
-## 📦 Kurulum
+Bu proje artık [iOSAppTemplates](https://github.com/muhittincamdali/iOSAppTemplates) içinde yaşıyor.
+Bu depo arşivlendi ve salt okunur.
 
-### Swift Package Manager
+Clean Architecture şablonu yeniden yazıldı ve orada
+[`Templates/CleanArchitectureApp`](https://github.com/muhittincamdali/iOSAppTemplates/tree/master/Templates/CleanArchitectureApp)
+olarak birleştirildi: Domain, Data ve Presentation hedeflerine ayrılmış, HTTP katmanı, çevrimdışı
+önbelleği ve testleri olan, iOS 18 için bir SwiftUI uygulaması. Bu depodaki kodun yerini alır;
+bu yüzden API ve modül adları farklıdır. Eski kaynaklar başvuru için bu deponun geçmişinde durur.
 
-```swift
-dependencies: [
-    .package(url: "https://github.com/muhittincamdali/ios-clean-architecture-template.git", from: "1.0.0")
-]
+- Şablon: [Templates/CleanArchitectureApp](https://github.com/muhittincamdali/iOSAppTemplates/tree/master/Templates/CleanArchitectureApp)
+- Rehber: [Working with the Clean Architecture Template](https://github.com/muhittincamdali/iOSAppTemplates/blob/master/Sources/TemplateScaffold/TemplateScaffold.docc/WorkingWithTheCleanArchitectureTemplate.md) (İngilizce)
+- Sürümler: [iOSAppTemplates sürümleri](https://github.com/muhittincamdali/iOSAppTemplates/releases)
+
+## Kurulum
+
+iOSAppTemplates klonunda `create-ios-app` aracıyla şablondan proje oluşturun:
+
+```sh
+git clone https://github.com/muhittincamdali/iOSAppTemplates.git
+cd iOSAppTemplates
+swift run create-ios-app new MyApp --template clean-architecture --output ~/Developer
 ```
 
-## 🚀 Hızlı Başlangıç
+İskele mantığı ayrıca bir Swift paketi kütüphanesi olarak da kullanılabilir (macOS 14 veya üzeri):
 
-Detaylı kullanım ve API referansı için [İngilizce README](README.md) dosyasına bakın.
+```swift
+.package(url: "https://github.com/muhittincamdali/iOSAppTemplates.git", from: "3.0.0")
+```
 
-## 📖 Dokümantasyon
+## Lisans
 
-- [README (English)](README.md)
-- [Contributing Guide](CONTRIBUTING.md)
-- [Changelog](CHANGELOG.md)
-- [Security Policy](SECURITY.md)
-
-## 📄 Lisans
-
-MIT License - detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
-## 👨‍💻 Geliştirici
-
-**Muhittin Camdali**
-
-[![GitHub](https://img.shields.io/badge/GitHub-muhittincamdali-181717?style=flat&logo=github)](https://github.com/muhittincamdali)
+MIT, bkz. [LICENSE](LICENSE).
